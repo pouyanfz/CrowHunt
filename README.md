@@ -2,7 +2,7 @@
 
 A shooting game inspired by the classic Duck Hunt.
 
-![CrowHunt Screenshot](/Github%20Images/Screenshot%202024-12-26%20at%2012.19.31 PM.png)
+![CrowHunt Screenshot](/Github%20Images/Screenshot%202024-12-27%20at%2010.58.58 AM.png)
 
 ## Description
 
