@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROW HUNT</title>
+</head>
+<body id="body" style="background-color:#bababa;">
+    <div style="display: grid; justify-content: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <div>
+            <label style="font-size: 30px">Hunted Birds 🦅 :</label>
+            <label id="kill_counter" style="font-size: 40px">0</label>
+        </div>
+        <br>
+        <div>
+            <label style="font-size: 30px">Bullets Left 🔫 :</label>
+            <label id="bullet_counter" style="font-size: 40px">🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢</label>
+        </div>
+        <br>
+    </div>
+    <div id="start_button">
+        <button id="start" onclick="game_start()" style="width: 100%; height: 100% ;position: absolute;left: 0px; top: 0px;font-family: 'Copperplate';color: rgb(255, 255, 255); background-color: black;" >
+            <div>
+                <p style="font-size: 1000%;">CROW HUNT 🦅</p>
+            </div>
+            <p style="font-size: 350%; color:darkorange">Click anywhere on the screen to play</p>
+            <p style="color:crimson; font-size: 200%">don't forget to unmute your device 🔉</p>
+
+                <p style="font-size :250%; text-align: center ; padding-top: 15%; color: rgb(0, 157, 200);">POUYAN FOROUZANDEH</p>
+        </button>
+    </div>
+   
+    <div style="text-align:center;">
+        <canvas id="canvas" width = "1024" height="768" style= "background-color: rgb(225, 223, 223); border: 4px; border-color: rgb(255, 0, 0);"></canvas>
+        
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>
